@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  redirect '/home.html'
+  send_file './public/home.html'
 end
