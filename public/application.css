@@ -106,13 +106,15 @@ p {
     width: 220px;
   }
 .navigation {
+  float: right;
   padding-top: 60px;
+  padding-right: 15px;
 }
   .navigation li {
     display: inline;
   }
     .navigation li a {
-      padding: 10px 30px;
+      padding: 10px 37px;
     }
     .navigation li a.selected {
       color: #f5a64e;
